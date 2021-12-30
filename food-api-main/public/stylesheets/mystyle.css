@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.mynav{
+  background-color: #26140d;
+}
+.items{
+
+color: white;
+text-decoration: none;
+font-size: 22px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+transition: 0.5s;
+padding: 0px 20px;
+}
+.items:hover{
+  color:rgb(233, 55, 55); 
+  
+}
+.nav-img img, .footer>img{
+  width: 100px;
+}
+
+.hero-section{
+width: 100%;
+background: url("../images/bg1.jpg") no-repeat center;
+height: 100vh;
+background-size: cover;
+position: relative;
+top: -10px;    
+
+}
+
+
+    .details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 400px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        
+        }
+        
+        .details h1{
+        font-size: 100px;
+        font-weight: 700;
+        
+        }
+        .hero-img2{
+            text-align: center;
+            position: absolute;
+            top: 45%;
+            left: 9%;
+            }
+            
+     .hero-img2 img{
+            width: 65%;
+            }
+
+            .m-heading, .cat-heading, .section-heading,.abt-h,.menu-heading, .contact-heading{
+                font-family: 'Dancing Script', cursive;
+                font-size: 50px;
+                position: relative;
+                bottom: 0;
+                z-index: -1;
+                margin-bottom: 55px;
+                color: rgb(233, 55, 55);
+                font-weight: 800;
+            }
+            .m-heading::after, .cat-heading::after, .section-heading::after, .abt-h::after,.menu-heading::after{
+                content: "";
+                background: url(../images/bar.png) no-repeat;
+                position: absolute;
+                top: 58px;
+                left:  42%;
+                width: 500px;
+                height: 100vh;
+                }
+                .f-img img{
+                    width: 250px;
+                    padding-top: 20px;
+                    border-radius: 10px;
+                    }
+                    
+                    .menu h1{
+                    margin-top: 30px;
+                    font-family: 'Dancing Script', cursive;
+                    font-size: 55px;
+                    }
+                    
+                    .menu{
+                        color: rgb(255, 255, 255);
+                        position: relative;
+                        margin: 35px 0px;
+                        overflow: hidden;
+                        background: linear-gradient(rgba(4,9,30,0.9) ,rgba(4,9,30,0.7)),url(../images/menu_bg1.jpg);
+                        background-size: cover;
+                    }
+                    
+                    .m-conatiner{
+                    flex-direction: column;
+                    margin: 0px 100px;
+                    }
+                    .menu-1{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 10px 50px;
+                     
+                    
+                    }
+                    
+                    .menu-1 img{
+                    border-radius: 50%;
+                    width: 80px;
+                    margin-right: 15px;
+                    border: 3px solid grey;
+                    }
+                    
+                    .menu-1 .info{
+                    padding: 20px;
+                    color: rgb(255, 255, 255);
+                    }
+                    
+                    .menu-1>div{
+                    padding: 0px 60px;
+                    
+                    }
+                    
+                    .info p{
+                    font-size: 20px;
+                    
+                    }
+                    .info h2{
+                        padding: 5px;
+                        color: rgb(233, 55, 55);
+                        }
+                        .btn3{
+                            margin-left: 42%;
+                            background-color:rgb(233, 55, 55) ;
+                            cursor: pointer;
+                            transition: ease 0.3s all;
+                            color: white;
+                        
+                            }
+                            .btn3:hover{
+
+                                color: white;
+                            }
+                            .booking{
+
+                                background: linear-gradient(rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)),url(../images/booking.jpg);
+                                background-size: cover;
+                                margin: -20px auto;
+                                width: 100%;
+                                text-align: center;
+                                padding: 100px 0;
+                                background-position: center;
+                                
+                            }
+                            
+                            .booking h1{
+                            color: white;
+                            margin-bottom: 40px;
+                            padding: 0;
+                            font-size: 90px;
+                            font-family: 'Dancing Script', cursive;
+                            }
+                            
+                            .mybtn{
+                            background: rgb(233,55,55);
+                          color: white;
+                            padding: 14px 43px;
+                            border-radius: 10px;
+                            cursor: pointer;
+                            font-size: 22px;
+                            font-weight: 600;
+                            outline: none;
+                            transition: ease 0.9s all;
+                            }
+
+                            .footer{
+                                margin-top: 50px;
+                                background: linear-gradient(rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)),url(../images/footer_bg_2.jpg);
+                                background-size: cover;
+                                height: 70vh;
+                                display: flex;
+                                align-items: center;
+                                color: white;
+                                flex-direction: column;
+                                padding: 10px 0px;
+                            }
+                            
+                            .footer p{
+                            color: rgb(233,55,55);
+                            line-height: 32px;
+                            font-size: 18px;
+                            font-family: 'Montserrat', sans-serif;
+                            
+                            }
+                            
+                            .footer>img
+                            {
+                            width: 200px;
+                            }
+                            
+                         
+                            
+                            .bottom{
+                     
+                            display: flex;
+                            margin-top: 10px;
+                            justify-content: space-between;
+                            padding: 0px 20px;
+                            font-size: 22px;
+                            text-align: center;
+                            }
+                            
+                        
+                            .footer span{
+                            color: white;
+                            
+                            }
+                            
+                .contactform{
+                    margin: 70px 0px;
+                    padding: 0px 300px;
+
+                }
+
+                .sendbtn , .loginbtn{
+
+                    padding: 10px 90px;
+                    margin-left: 260px;
+                    text-align: center;
+                }
+
+                .contact-heading{
+                    text-align: center;
+                }
+
+            .menu-items{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+
+.menu-heading{
+text-align: center;
+margin: 25px 0px;
+}
+
+.cart-btn{
+background-color: rgb(233, 55, 55);;
+color: white;
+padding: 10px 20px;
+border-radius: 10px;
+text-decoration: none;
+
+}
+
+.cart-btn:hover{
+
+color: white;
+}
+
+.price{
+margin-bottom: 10px;
+}
+
+.loginbtn{
+color: white;
+background-color: rgb(0, 102, 255);
+border-radius: 10px;
+}
+

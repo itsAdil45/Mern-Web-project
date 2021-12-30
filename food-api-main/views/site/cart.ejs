@@ -1,0 +1,41 @@
+<%- include('../partials/navbar'); %>
+
+<form action="" method="get">
+
+<table class="table" >
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+        <% for(var i=0;i<recipes.length;i++) {%>
+
+  <tbody>
+    <tr>
+      <th scope="row">*</th>
+      <td><%=recipes[i].title %></td>
+      <td><%=recipes[i].price %></td>
+     
+    </tr>
+    <% } %>
+  </tbody>
+</table>
+
+<h1>
+          Total
+
+      </h1>
+            <h3>
+            <%=total  %> Rs
+           </h3> 
+           <div>
+
+            <button type="submit" class="cart-btn">Confirm Order</button>
+           </div>
+          </form>
+
+<%- include('../partials/footer'); %>
+
+

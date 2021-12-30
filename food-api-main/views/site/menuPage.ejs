@@ -1,0 +1,27 @@
+<%- include('../partials/navbar'); %>
+
+<h2 class="menu-heading">Our Menu</h2>
+ <!-- (check index. js in routes) values are comming from there-->
+<hr>
+<% for(var i=0;i<recipes.length;i++) {%>
+
+<div class="menu-items">
+    <h3 class="item-heading"><%=recipes[i].title %></h3>
+    <p class="item-text">
+        <%=recipes[i].body %>
+    </p>
+    <div class="price">
+
+        Price::<%=recipes[i].price %>
+
+    </div>
+    <div>
+        <!-- router created in index.js --. routes -->
+        <a href="/add-cart/<%=recipes[i]._id %>" class="cart-btn">Add To Cart</a>
+    </div>
+</div>
+<hr>
+
+    <% } %>
+
+<%- include('../partials/footer'); %>

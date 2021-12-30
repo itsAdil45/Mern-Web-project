@@ -1,0 +1,16 @@
+For Creating Api
+1) command===>express --view = ejs appname
+2) Create Models of Mongo DB (look models folder) and also make connection of mongo dp in app.js
+3) create Api folder in routes then creates routes for each db models (routes-->api)
+(look Api Folder)
+
+For Creating Client End and utilizing api
+1) views folder contain index and error ejs files ejs are use for creating layouts
+2)index.ejs is the default page which will render at '/'
+3)ejs file will be render by route (see index.js in routes)
+4) partials will contain the master layout which will render on every page
+5) site will contain the layouts of pages(views-->site)
+
+
+
+

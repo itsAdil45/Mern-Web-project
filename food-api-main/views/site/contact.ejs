@@ -1,0 +1,30 @@
+<%- include('../partials/navbar'); %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="/stylesheets/mystyle.css" rel="stylesheet">
+</head>
+<body>
+    <form action="" method="POST" class="contactform">  
+        <h1 class ="contact-heading">Contact Us</h1>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="name">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Email</span>
+            <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon1" name="email">
+          </div>
+        
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Message</span>
+            <input type="text" class="form-control" placeholder="message" aria-label="message" aria-describedby="basic-addon1" name="message">
+          </div>
+     
+          <button type="submit" class="btn btn-primary sendbtn">Send</button>
+    </form>
+    
+</body>
+</html>
+
+<%- include('../partials/footer'); %>

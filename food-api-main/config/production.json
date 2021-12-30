@@ -1,0 +1,6 @@
+{
+
+    "db":"mongodb://localhost/recipescrud",
+    "jwtPrivatekey": "SomePrivateKey",
+    "sessionSecret": "MySessionSecret"
+}
